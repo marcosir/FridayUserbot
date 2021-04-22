@@ -37,11 +37,11 @@ def fetch_heroku_git_url(api_key, app_name):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 1))
-    API_HASH = os.environ.get("API_HASH", None)
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    API_ID = int(os.environ.get("5809594", 1))
+    API_HASH = os.environ.get("9f7022ee2c0cae13255d60680b94ffb9", None)
+    BOT_TOKEN = os.environ.get("1614632145:AAHO0tL92EmM1nI-xiFOKMMjxFJ8sVB-JRE", None)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    STRINGSESSION = os.environ.get("STRINGSESSION", None)
+    STRINGSESSION = os.environ.get("AQB0UGb6mmq2T1OhnD5tSqX6kHErZ0G5bwIzq_DpNrLk6CmSBFGTX2eszjlSNYC0HvSLs7q6P4k_sW5nXNuXMhFOj4YrUGcrHTM4z3BmUGS9fOK7f48F5UnE4HmvheoCt8CuoDq_ocmmL5xuoL2JMn8TBpicyG7A05V2U8gl9Sc2hTXlAD2ap6NPetAQNW-minEGQ9pXwbvly8LWCMmRw13iJPo4aeEJVYnbvMqD02TDmQBbcR8nYLdMrcSdKPWe5AxAuXrfdwp_kzoQ0Urq3-vXJ71a1uG6t-BiQA-5HVwAmbAkcStagjKMYxobbMUjbowwmHJwkSZxsVeATFticQsuZmg4jwA", None)
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC", "https://telegra.ph//file/92c1a600394c723db90fc.jpg"
     )
@@ -51,7 +51,7 @@ class Config(object):
     LOAD_UNOFFICIAL_PLUGINS = bool(strtobool(str(os.environ.get("LOAD_UNOFFICIAL_PLUGINS", False))))
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     TZ = os.environ.get("TZ", "Asia/Kolkata")
-    MONGO_DB = os.environ.get("MONGO_DB", None)
+    MONGO_DB = os.environ.get("mongodb+srv://dhruv:674022sd@cluster0.b59rr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", None)
     LOG_GRP = int(os.environ.get("LOG_GRP", False))
     COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
