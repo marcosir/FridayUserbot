@@ -52,7 +52,7 @@ class Config(object):
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", False)
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     MONGO_DB = os.environ.get("mongodb+srv://dhruv:674022sd@cluster0.b59rr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", None)
-    LOG_GRP = int(os.environ.get("LOG_GRP", False))
+    LOG_GRP = int(os.environ.get("-1001238004175", False))
     COMMAND_HANDLER = os.environ.get("COMMAND_HANDLER", ".")
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     AFS = list(SUDO_USERS)
